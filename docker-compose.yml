@@ -1,0 +1,11 @@
+version: '3.1'
+services:
+  springboot:
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: springboot-api-authentication
+    image: api-authentication
+    ports:
+      - '8080:8080'
+      - '5005:5005'

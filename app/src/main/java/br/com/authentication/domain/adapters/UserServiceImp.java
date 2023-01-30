@@ -24,7 +24,7 @@ public class UserServiceImp implements UserServicePort {
         user.setName(u.getName());
         user.setLogin(u.getLogin());
         user.setPassword(encoder.encode(u.getPassword()));
-        user.setFlagActive(Boolean.FALSE);
+        user.setFlagActive(Boolean.TRUE);
         
         repository.save(user);
     }

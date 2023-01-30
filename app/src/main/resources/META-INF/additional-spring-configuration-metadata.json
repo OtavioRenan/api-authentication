@@ -1,0 +1,14 @@
+{
+    "properties": [
+        {
+            "name": "contrate.security.token.expiration",
+            "type": "java.lang.String",
+            "description": "Time expiration of token JWT"
+        },
+        {
+            "name": "contrate.security.token.key",
+            "type": "java.lang.String",
+            "description": "hash crypto of token JWT"
+        }
+    ]
+}
